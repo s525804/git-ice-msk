@@ -13,6 +13,9 @@
 		4ED80B4A1DDA46E90094569F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED80B481DDA46E90094569F /* Main.storyboard */; };
 		4ED80B4C1DDA46E90094569F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED80B4B1DDA46E90094569F /* Assets.xcassets */; };
 		4ED80B4F1DDA46E90094569F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED80B4D1DDA46E90094569F /* LaunchScreen.storyboard */; };
+		4ED80B571DDA48AE0094569F /* SeaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED80B561DDA48AE0094569F /* SeaVC.swift */; };
+		4ED80B5B1DDA49050094569F /* BeeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED80B5A1DDA49050094569F /* BeeVc.swift */; };
+		4ED80B5D1DDA4B050094569F /* EhVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED80B5C1DDA4B050094569F /* EhVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4ED80B4B1DDA46E90094569F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ED80B4E1DDA46E90094569F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ED80B501DDA46E90094569F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED80B561DDA48AE0094569F /* SeaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaVC.swift; sourceTree = "<group>"; };
+		4ED80B5A1DDA49050094569F /* BeeVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeVc.swift; sourceTree = "<group>"; };
+		4ED80B5C1DDA4B050094569F /* EhVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EhVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				4ED80B4B1DDA46E90094569F /* Assets.xcassets */,
 				4ED80B4D1DDA46E90094569F /* LaunchScreen.storyboard */,
 				4ED80B501DDA46E90094569F /* Info.plist */,
+				4ED80B561DDA48AE0094569F /* SeaVC.swift */,
+				4ED80B5A1DDA49050094569F /* BeeVc.swift */,
+				4ED80B5C1DDA4B050094569F /* EhVc.swift */,
 			);
 			path = "Git-ICE_MSK";
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED80B571DDA48AE0094569F /* SeaVC.swift in Sources */,
 				4ED80B471DDA46E90094569F /* SecondViewController.swift in Sources */,
 				4ED80B431DDA46E90094569F /* AppDelegate.swift in Sources */,
+				4ED80B5D1DDA4B050094569F /* EhVc.swift in Sources */,
 				4ED80B451DDA46E90094569F /* FirstViewController.swift in Sources */,
+				4ED80B5B1DDA49050094569F /* BeeVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
